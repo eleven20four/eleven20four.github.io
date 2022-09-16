@@ -1,0 +1,45 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #77808f;
+}
+
+.navbar-brand {
+  padding: 25px 0;
+}
+.navbar-brand h1{
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-toggler {
+  background-color: #77808f;
+}
+.nav-item {
+  background-color: #77808f;
+}
+#navbarNav ul li a {
+  color: black;
+  border: 1px solid #dedede;
+
+}
+
+.text-center{
+  padding: 25px 0;
+  font-weight: bold;
+}
+#main-content {
+  background-color: #dedede;
+}
+p {
+  text-align: justify;
+}
+
+@media (min-width: 991px){
+
+.navbar-nav {
+  display: none;
+}
